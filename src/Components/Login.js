@@ -35,9 +35,13 @@ function Login() {
               >
                 Login
               </NavLink>
-              <button type="button" className="btn btn-warning">
-                Sign-up
-              </button>
+              <NavLink
+                type="button"
+                className="btn btn-warning"
+                to={"/register"}
+              >
+                Register
+              </NavLink>
             </div>
           </div>
         </div>
